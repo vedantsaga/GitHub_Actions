@@ -6,9 +6,9 @@ on:
 jobs:
   F1_Pipeline:
     runs-on: ubuntu-latest
-  steps:
-    - name: First_step
-      run: echo "vishal is a good guy. i'm printing this statment from inside a section from pipeline."
+    steps:
+      - name: First_step
+        run: echo "vishal is a good guy. i'm printing this statment from inside a section from pipeline."
     
-    - name: Second_Step
-      run: whoami
+      - name: Second_Step
+        run: whoami
