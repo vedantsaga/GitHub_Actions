@@ -7,7 +7,7 @@ on:
     branches:
       - main
 jobs:
-  F1_Pipeline
+  F1_Pipeline:
   runs-on: ubuntu-latest
   steps:
     - name: First_step
